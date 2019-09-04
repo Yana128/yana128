@@ -1,5 +1,8 @@
 #include <iostream>
+void show_hello() {
+     std::cout<<"Hello World!";
+     }
 int main() {
-    std::cout<<"Helo World!";
+    show_hello();
     return 0;
 }
